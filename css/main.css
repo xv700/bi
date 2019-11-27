@@ -70,3 +70,21 @@ a.btn-dtn:link,a.btn-dtn:visited,a.btn-dtn:hover,a.btn-dtn:focus {
 	color:#7a858f;
 	font-size:0.8em
 }
+.hover {
+    width: 500px;
+	height: 500px;
+	color:black;
+    background-color:white;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.hover:hover, .hover:focus, .hover:active {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+	background-color: green;
+	color:black;
+}
