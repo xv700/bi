@@ -2,6 +2,7 @@
 	margin:0;
 	padding:0
 }
+body,html{ height: 100%; display: block}
 body {
 	background-color:#fff;
 	color:#4e5c69;
@@ -10,22 +11,15 @@ body {
 	margin-right:auto;
 	font-family:"Microsoft YaHei";
 	line-height:1.6em;
-	font-size:16px;
+	font-size: 1.2em;
 }
-@media (min-width:600px) {
-	body {
-	font-size:18px
-}
-}
-@media (min-width:1100px) {
-	body {
-	font-size:20px
-}
-}
+
 .container {
-	width:80%;
+	line-height:2em;
+	max-width:80%;
 	margin:0 auto;
 }
+.content .container{ padding: 1em 0; text-align:left}
 @media (min-width:600px) {
 	.container {
 	width:70%
@@ -39,66 +33,10 @@ header {
 	color:#fff;
 	height: 280px;
 }
-form {
-	background-color:#fff;
-	border-radius:6px;
-	margin-top:-6em;
-	padding-top:2em;
-	padding-bottom:2em;
-	padding-left:2em;
-	padding-right:2em;
-	box-shadow:0 2px 4px 0 #bdc2c7;
-	position:relative
-}
-@media (min-width:600px) {
-	form {
-	padding-left:4em;
-	padding-right:5em
-}
-}form label {
-	display:block
-}
-form input {
-	width:100%;
-	padding-left:0.4em;
-	padding-top:0.4em;
-	padding-bottom:0.4em;
-	font-size:0.8em;
-	border-style:solid;
-	border-width:1px;
-	border-color:#bdc2c7;
-	border-top-color:#7a858f;
-	color:#4e5c69
-}
-form .btn {
-	display:inline-block;
-	font-family:georgia,serif;
-	font-style:italic;
-	padding-left:2em;
-	padding-right:2em;
-	padding-top:0.4em;
-	padding-bottom:0.4em;
-	margin-top:1.6em;
-	margin-bottom:1em;
-	font-size:0.9em;
-	border-style:none;
-	border-radius:4px;
-	box-shadow:0 2px 4px 0 #bdc2c7;
-	background-color:#4e5c69;
-	color:#fff
-}
-form .btn:hover,form .btn:focus {
-	background-color:#234;
-	cursor:pointer
-}
-form .btn:active {
-	background-color:#fff;
-	color:#234
-}
 footer {
 	margin-top:1em;
 	margin-bottom:2em;
-	font-size:0.7em;
+	font-size:1em;
 	color:#7a858f;
 	line-height:1.8em
 }
@@ -106,11 +44,9 @@ h1 {
 	line-height:1.4em;
 	font-size:2em
 }
-@media (min-width:600px) {
-	h1 {
-	font-size:2em
+h2 { padding-top: 1em;font-size:1em
 }
-}a:link,a:visited {
+a:link,a:visited {
 	text-decoration:none;
 	color:#234;
 	border-bottom-style:dotted;
